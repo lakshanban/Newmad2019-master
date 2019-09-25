@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartL.mad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconnew"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".laky.ChangePassword"></activity>
+        <activity android:name=".VoiceContoll" />
+        <activity android:name=".ConnectWifi" />
+        <activity android:name=".ShowNotification" />
+        <activity
+            android:name=".laky.RegisterLaky"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".laky.LoginLaky"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".recyclerView.MainDevicesHome" />
+        <activity
+            android:name=".recyclerView.QrReader"
+            android:parentActivityName=".recyclerView.MainDevicesHome" />
+        <activity
+            android:name=".recyclerView.AddDeviceActivity"
+            android:parentActivityName=".recyclerView.MainDevicesHome" />
+        <activity android:name=".FirstScreen" />
+        <activity android:name=".user.HandleUser" />
+        <activity android:name=".user.Profile" />
+        <activity android:name=".user.Register" />
+        <activity android:name=".commonUtilDevice.Plug" />
+        <activity android:name=".commonUtilDevice.MoreOption" />
+        <activity android:name=".commonUtilDevice.Shedule" />
+        <activity
+            android:name=".commonUtilDevice.Alarm"
+            android:parentActivityName=".commonUtilDevice.Controller" />
+        <activity android:name=".commonUtilDevice.Controller" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".commonUtilDevice.AlarmReciver" />
+    </application>
+
+</manifest>

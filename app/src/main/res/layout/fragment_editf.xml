@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/newActionBar"
+    tools:context=".Editf"
+    android:layout_gravity="center_vertical|center_horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/updateNn"
+            android:layout_width="266dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="72dp"
+            android:drawableStart="@drawable/ic_edit_black"
+            android:text="change nickname"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/deletedevice"
+            android:layout_width="266dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="72dp"
+            android:drawableLeft="@drawable/ic_delete"
+            android:text="remove device"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filterOptions">
+        <item></item>
+        <item>deviceId</item>
+        <item>deviceName</item>
+        <item>Nick name</item>
+        <item>RGB_DB</item>
+        <item>SMARTDEVICE_DB</item>
+        <item>USER_DB</item>
+
+    </string-array>
+</resources>

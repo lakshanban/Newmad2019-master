@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/newActionBar"
+    tools:context=".commonUtilDevice.Shedule">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="40dp"
+                android:text="Set Shedule"
+                android:textAlignment="center"
+                android:textColor="@color/newLetters"
+                android:textSize="36sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="21dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="12dp"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/su"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnsheduledisable"
+                    android:text="ToggleButton"
+                    android:textColor="@color/newLetters"
+                    android:textOff="S"
+                    android:textOn="S"
+                    android:textSize="18sp" />
+
+                <ToggleButton
+                    android:id="@+id/mo"
+                    android:layout_width="46dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/btnsheduledisable"
+                    android:text="ToggleButton"
+                    android:textColor="@color/newLetters"
+                    android:textOff="M"
+                    android:textOn="M"
+                    android:textSize="18sp" />
+
+                <ToggleButton
+                    android:id="@+id/tu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnsheduledisable"
+                    android:text="ToggleButton"
+                    android:textColor="@color/newLetters"
+                    android:textOff="Tu"
+                    android:textOn="Tu"
+                    android:textSize="18sp" />
+
+                <ToggleButton
+                    android:id="@+id/we"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnsheduledisable"
+                    android:text="ToggleButton"
+                    android:textColor="@color/newLetters"
+                    android:textOff="WE"
+                    android:textOn="WE"
+                    android:textSize="18sp" />
+
+                <ToggleButton
+                    android:id="@+id/th"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnsheduledisable"
+                    android:text="ToggleButton"
+                    android:textColor="@color/newLetters"
+                    android:textOff="TH"
+                    android:textOn="TH"
+                    android:textSize="18sp" />
+
+                <ToggleButton
+                    android:id="@+id/fr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnsheduledisable"
+                    android:text="ToggleButton"
+                    android:textColor="@color/newLetters"
+                    android:textOff="FR"
+                    android:textOn="FR"
+                    android:textSize="18sp" />
+
+                <ToggleButton
+                    android:id="@+id/sa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnsheduledisable"
+                    android:text="ToggleButton"
+                    android:textColor="@color/newLetters"
+                    android:textOff="SA"
+                    android:textOn="SA"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="From"
+                android:textColor="@color/newLetters"
+                android:textSize="24sp" />
+
+            <TimePicker
+                android:id="@+id/timePickerFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:headerBackground="@color/newActionBar"
+                android:timePickerMode="clock" />
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:text="To"
+                android:textColor="@color/newLetters"
+                android:textSize="24sp" />
+
+
+            <TimePicker
+                android:id="@+id/timePickerTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:headerBackground="@color/newActionBar"
+                android:timePickerMode="clock" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/sheduleCancel"
+                    android:layout_width="182dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/btnpattern"
+                    android:text="Cancel"
+                    android:textColor="@color/newLetters"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/seduleOk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/btnpattern"
+                    android:text="Ok"
+                    android:textColor="@color/newLetters"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

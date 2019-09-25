@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#D7223553</color>
+    <color name="colorAccent">#2D0B17</color>
+    <color name="mycolor">#BA5BC1F5</color>
+    <color name="btn_color">#B0E5FF</color>
+    <color name="btn_disable">#9098A3</color>
+    <color name="register">#223553</color>
+    <color name="newActionBar">#223553</color>
+    <color name="newActionBarright">#F00FF8</color>
+    <color name="newLetters">#F4FFFFFF</color>
+    <color name="btncolor2">#9A7D5E</color>
+    <color name="upbar">#223553</color>
+    <color name="navigation">#DFDADA</color>
+    <color name="mainActionbar">#07DFDADA</color>
+    <color name="black">#020202</color>
+    <color name="red">#FF4081</color>
+
+</resources>

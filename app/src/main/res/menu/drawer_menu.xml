@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_nav"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_changePsw"
+            android:icon="@drawable/ic_settings_nav"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_singout"
+            android:icon="@drawable/singout"
+            android:title="Sing Out" />
+        <!--<item-->
+            <!--android:id="@+id/nav_testing"-->
+            <!--android:icon="@drawable/ic_delete"-->
+            <!--android:title="testing" />-->
+    </group>
+
+    <!--<item android:title="Development only">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_rgbdb"-->
+                <!--android:icon="@drawable/ic_delete"-->
+                <!--android:title="RGB_DB" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_smartdevicedb"-->
+                <!--android:icon="@drawable/ic_delete"-->
+                <!--android:title="SMARTDEVICE_DB" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_userdb"-->
+                <!--android:icon="@drawable/ic_delete"-->
+                <!--android:title="USER_DB" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
